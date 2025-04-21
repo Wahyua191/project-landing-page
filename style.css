@@ -58,7 +58,7 @@ a {
     
 }
 
-button {
+.hb-left button {
     background-color: #3b82f6;
     color: #f9faf8;
     padding: 5px 20px;
@@ -127,4 +127,40 @@ button {
     font-size: 18px;
     align-self: flex-end;
    
+}
+
+.section-four {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 50px 100px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.main-text {
+   font-size: 18px;
+   font-weight: bold;
+   color: #f9faf8; 
+}
+
+.sub-text {
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.action button {
+    background-color: #3b82f6;
+    color: #f9faf8;
+    padding: 5px 35px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
 }
