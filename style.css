@@ -110,9 +110,8 @@ button {
 .quote-body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 200px;
 }
 
 .quote-text {
@@ -124,7 +123,7 @@ button {
 }
 
 .author {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 18px;
     align-self: flex-end;
    
