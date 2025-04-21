@@ -102,3 +102,30 @@ button {
     padding-top: 10px;;
     text-align: center;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 830px;
+}
+
+.author {
+    font-weight: bolder;
+    font-size: 18px;
+    align-self: flex-end;
+   
+}
